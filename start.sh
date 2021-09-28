@@ -17,7 +17,7 @@ AUTH=none
 else
 AUTH=password
 fi
-code-server /workspace/ --bind-addr=0.0.0.0:80 --auth $AUTH &
+code-server /workspace/ --bind-addr=0.0.0.0:8010 --auth $AUTH &
 
 if [ -z "$PASSWORD" ]
 then
